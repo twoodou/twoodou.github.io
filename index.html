@@ -2,27 +2,83 @@
 <html lang="en-us">
 
   <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,700|Flamenco|Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="UTF-8">
-    <title>Example Page</title>
-
+    <title>Thomas Wood</title>
     
   </head>
 
   <body>
+    <!-- <img id="backgroundImage" src="concrete-texture.jpeg"> -->
+    <div id="headerWrap">
+      <header>
+        <h1 class="pageHeaderBox">Thomas Wood</h1>
 
-  <h1>This is a header 1</h1>
+        <nav class="navigationBar">
+          <a href="index.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore ut, eum! Repellat, beatae dolorem minus sapiente iste nihil explicabo impedit eos consequuntur illum corporis autem vitae cum aperiam mollitia.</p>
+        <!--TABLE ATTEMPT
 
-  <h2>This is a header 2</h2>
+        <table class="siteLinkList">
+          <tr>
+            <th>About</th>
+            <th>Portfolio</th>
+            <th>Contact</th>
+          </tr>
+        </table>-->
 
-  <ul>
-    <li>Test</li>
-    <li>Test</li>
-    <li>Test</li>
-    <li>Test</li>
-  </ul>
+        <!-- LIST ATTEMPT
+
+        <ul class="siteLinkList">
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Portfolio</li>
+          <li><a href="#"></a>Contact</li>
+        </ul> 
+
+      -->
+
+
+      </header>
+    </div>
+
+    <div class="centerArea clearfix">
+
+      <section class="mainSection">
+        <h1 class="aboutMe cadetBlue">About Me</h1>
+
+        <hr class="mainSectionHR">
+
+        <img class="profilePicture" src="assets/images/profilePicture.png" alt="Thomas Wood's Profile Photo">
+
+        <p>My name is Thomas Wood and I am an enthusiastic web developer.  I graduated with a Bachelor of Science in Construction Science from the University of Oklahoma in 2013, and began my professional career in commercial construction management.  I began in the field, working as a Field Engineer on the University of Texas' Dell Medical School Research Facility in Austin, TX.  I went through the ranks, ending my corporate career in Oklahoma as a Project Manager.  I then started my own business called Wood's Construction Services, and eventually moved to Houston, TX.  </p>
+
+        <p>While my background has been primarily in construction, I have always had a passion for technology.  At the age of 14, I saved up money by working in  my father's auto parts warehouse and I built my first computer.  I used this computer to play my favorite video games and chat with fellow gamers via website forums.  Through these forums, I was first introduced to HTML.  While I regret not pursuing web development any further than HTML until recently, I value my time spent in construction management because it gave me the ambition and leadership that will prove valuable in any career.  I hope you enjoy my personal website and feel free to contact me with any comments or questions.</p>
+      </section>
+
+      <section class="connectWithMeSection cadetBlue">
+        <h2>Connect with Me</h2>
+        <hr class="mainSectionHR">
+        <a target="_blank" href="https://github.com/twoodou"><img class="socialMediaIcon" src="assets/images/githubIcon.png" alt="social media photo"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mrthomaswood/"><img class="socialMediaIcon" src="assets/images/linkedInIcon.png" alt="social media photo"></a>
+        <a target="_blank" href="https://stackoverflow.com/users/8560710/twoodou"><img class="socialMediaIcon" src="assets/images/stackOverflowIcon.png" alt="social media photo"></a>
+      </section>
+
+
+      <div class="push"></div>
+    </div>
+
+    <div id="footer">
+      <footer>
+        <p>&copy; Copyright 2017 Thomas Wood</p>
+      </footer>
+    </div>
+
 
   </body>
 

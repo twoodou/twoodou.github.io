@@ -1,0 +1,147 @@
+* {
+	font-family: 'Lato','Asap', sans-serif;
+}
+
+/*{
+	border:1px black solid;
+}
+*/
+#backgroundImage {
+	/*width: 960px;*/
+	height: 100%;
+	position: absolute;
+	top: 98px;
+	z-index: -100;
+	border-top: 2px grey solid;
+}
+
+body {
+	width: 100%;
+/*	background: url(concrete-texture.jpeg);*/
+background: url("../images/concrete-texture.jpeg");
+	background-repeat: repeat;
+}
+
+#headerWrap {
+	width: 100%;
+	background-color: white;
+	padding: 0;
+	font-family: 'Flamenco', cursive;
+	position: relative;
+	z-index: 100;
+	background-color: white;
+}
+
+section {
+
+}
+
+.navigationBar {
+	color: lightsteelblue;
+	float: right;
+	z-index: 200;
+	position: absolute;
+	top: 28px;
+	right: 78px;
+}
+
+.pageHeaderBox {
+	height: auto;
+	max-width: 25%;
+	background-color: cadetblue;
+	color: white;
+	padding: 20px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+.aboutMe {
+	padding-left: 20px;
+}
+
+.profilePicture {
+	float: left;
+	max-width: 35%;
+	max-height: auto;
+	padding-right: 14px;
+	padding-bottom: 4px;
+}
+
+.portfolioPlaceholder {
+	float: left;
+	padding: 20px;
+}
+
+.centerArea {
+	position: relative;
+	margin: 0 auto;
+}
+
+.cadetBlue {
+	color: cadetblue;
+}
+
+.mainSection {
+	background-color: white;
+	float: left;
+	border: 5px;
+	border-color: cadetblue;
+	width: 60%;
+	margin-left: 25px;
+	border: 1px lightgrey solid;
+	padding: 15px;
+}
+
+.mainSectionHR {
+	margin: 0 20px 20px 20px;
+}
+
+.connectWithMeSection {
+	background-color: white;
+	float: left;
+	width: 270px;
+	float: left;
+	border: 1px lightgrey solid;
+	padding-bottom: 18px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+.connectWithMeHR {
+
+}
+
+.socialMediaIcon {
+	height: 50px;
+	width: 50px;
+}
+
+#footer {
+	color: white;
+	font-size: 12px;
+	width: 940px;
+	height: 10px;
+	background-color: #666;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 40px;
+	border-top: 5px cadetblue solid;
+	margin-top: 20px;
+}
+
+.clearfix::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+/* Media Queries */
+
+@media screen
+and (max-width: 980px){}
+
+@media screen
+and (max-width: 768px){}
+
+@media screen
+and (max-width: 640px){}
