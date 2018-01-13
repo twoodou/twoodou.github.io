@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="row">
+  <!-- <div class="row">
     <div class="container">
       <div class="containerCont">
       <div class="col c6">
@@ -32,68 +32,86 @@
       </div>
     </div>
     <hr class="mainSectionHR">
-  </div>
-
-  <!-- <div class="row">
-      <div class="container headerWrap">
-
-
-          <div class="col-md-9">
-            <div class="colCont">
-              <h1 class="pageHeaderBox">Thomas Wood</h1>
-            </div>
-          </div>
-
-          <div class="col-lg-12">
-            <nav>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="/about.html">About</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
+  </div> -->
+<div class="display-page">
+  <div class="overlay"></div>
+  <div class="links-container-right links-container">
+        <a class="scrollTo animated fadeInLeft" href="#about">About Me</a>
+        <a class="scrollTo animated fadeInLeft" href="#driver">Connect With Me</a>
       </div>
-    </div> -->
+      <div class="links-container-left links-container">
+        <a class="scrollTo animated fadeInLeft" href="#mission">My Work</a>
+        <a class="scrollTo animated fadeInLeft" href="#own">Professional Services</a>
+      </div>
+      <div class="vertical-content">
+        <!-- <div class="overlay"></div> -->
+        <!-- <img src="./assets/images/mysite.jpg" class="animated slideInDown"> -->
+        <!-- <div class="header1">
+          Thomas Wood
+        </div> -->
 
-  <div class="centerArea clearfix">
-
-    <div class="row">
-      <div class="container">
-        <div class="containerCont">
-          <div class="col c12">
-            <div class="colCont">
-              <h1 class="aboutMe">About Me</h1>
-
-            </div>
-          </div>
-
+        <div class="header1">
+          Thomas Wood
+        </div>
+        <div class="header2 animated slideInUp">
+          Full-Stack Developer, Builder
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="container">
-        <div class="containerCont">
-          <div class="col c3 pictureContainer">
-            <div class="colCont pictureContainer">
-              <img class="profilePicture" src="assets/images/profilePictureCropped.jpg" alt="Thomas Wood's Profile Photo">
-            </div>
-          </div>
+  <!-- 1. POGO App -->
+  <div id="mainbox">
+    <div class="card">
 
-          <div class="col c6">
-            <div class="colCont">
-              <p>My name is Thomas Wood and I am an enthusiastic web developer. I graduated with a Bachelor of Science in Construction Science from the University of Oklahoma in 2013, and began my professional career in commercial construction management.
-                I began in the field, working as a Field Engineer on the University of Texas' Dell Medical School Research Facility in Austin, TX. I went through the ranks, ending my corporate career in Oklahoma as a Project Manager. I then started my
-                own business called Wood's Construction Services, and eventually moved to Houston, TX. </p>
+      <div class="cardCont">
 
-              <p>While my background has been primarily in construction, I have always had a passion for technology. At the age of 14, I saved up money by working in my father's auto parts warehouse and I built my first computer. I used this computer to
-                play my favorite video games and chat with fellow gamers via website forums. Through these forums, I was first introduced to HTML. While I regret not pursuing web development any further than HTML until recently, I value my time spent
-                in construction management because it gave me the ambition and leadership that will prove valuable in any career. I hope you enjoy my personal website and feel free to contact me with any comments or questions.</p>
-            </div>
-          </div>
-          <div class="col c3">
+      <!-- <div class="overlay"></div> -->
+      <a class="projectLink" href="https://intense-savannah-48698.herokuapp.com/" target="_blank">
+      <img src="./assets/images/pogo-dashboard.PNG" alt="" /></a>
+      <h1 class="projectTitle">POGO</h1>
+      <p class="projectP">Log in with Google to view your POGO calendar dashboard that displays all of your upcoming events.  Not only does POGO pull your Google events, it also connects you to Groupon and Meetup events by analyzing your interests and personality traits.</p>
+
+    </div>
+
+  </div>
+
+    <!-- 2. Gains N Grains -->
+    <div class="card">
+      <div class="cardCont">
+      <a class="projectLink" href="https://twoodou.github.io/GainzGrains/" target="_blank">
+      <img src="./assets/images/grains.jpg" alt="" /></a>
+      <h1 class="projectTitle">Gains-N-Grains</h1>
+      <p class="projectP">This web application uses Google's Maps API to search for local bars and pubs based off any location that you input.  Cheers!</p>
+</div>
+    </div>
+
+    <!-- 3. Reddit Scraper -->
+    <div class="card">
+      <div class="cardCont">
+      <a class="projectLink" href="https://quiet-chamber-33301.herokuapp.com/" target="_blank">
+      <img src="./assets/images/RedditLogo.png" alt="" /></a>
+      <h1 class="projectTitle">Reddit Scraper</h1>
+      <p class="projectP">Click a button to display the most recent Reddit articles.  If you enjoy a particular article, click the save button to send it to a MongoDB database so you can show your friends later.</p>
+    </div>
+  </div>
+
+    <!-- 4. Career Connect -->
+    <div class="card">
+      <div class="cardCont">
+      <a class="projectLink" href="https://rocky-reaches-87375.herokuapp.com/" target="_blank">
+      <img src="./assets/images/career.jpg" alt="" /></a>
+      <h1 class="projectTitle">CareerConnect</h1>
+      <p class="projectP">With supercomputer-powers (IBM Watson) this app is able to analyze your profile(s) and match you to potential employers, with results ordered by match percentage.</p>
+</div>
+    </div>
+
+  </div>
+
+
+
+
+
+          <!-- <div class="col c3">
             <div class="colCont connectWithMeSection">
               <h4 class="connectWithMe">Connect with Me</h4>
               <hr class="mainSectionHR">
@@ -103,17 +121,7 @@
                 <a target="_blank" href="https://stackoverflow.com/users/8560710/twoodou"><img class="linkedInIcon" src="assets/images/stackOverflowIcon.png" alt="social media photo"></a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-  </div>
+          </div> -->
 
 
   <div class="push"></div>

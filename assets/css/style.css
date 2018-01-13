@@ -1,4 +1,4 @@
-/* ---------- 1: Global setup ---------- */
+ ---------- 1: Global setup ---------- */
 /* ---------- 1.1: Fonts --------- */
 /* NOTE: DO NOT USE Gigi-Regular it is the worst font ever created, this is just for example */
 /*@font-face {
@@ -17,6 +17,106 @@
   font-family: 'Lato','Asap', sans-serif;
 }
 
+
+
+.display-page {
+  background: url("../images/mysite.jpg");
+  background-attachment: scroll;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+
+.links-container {
+
+}
+
+.display-page .links-container-left {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+.display-page .links-container-right {
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    text-align: right;
+}
+
+.vertical-content {
+/*  background-image: url( ../images/mysite.jpg);
+  background-size: cover;*/
+  /*z-index: -1000;
+  background-color: #10101C;
+  opacity: 0.5;
+  z-index: -99;*/
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: #10101C;
+  z-index: -99;
+}
+
+.display-page .vertical-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header1 {
+  position: absolute;
+  text-align: center;
+font-size: 60px;
+padding-top: 50px;
+text-transform: uppercase;
+/*flex-grow: 1;*/
+top: 50%;
+/*z-index: 999;*/
+margin-left: 60px;
+}
+
+.header2 {
+/*  display: flex;
+*/  position: absolute;
+text-align: center;
+font-size: 40px;
+padding: 20px 0;
+/*flex-grow: 0.2;*/
+z-index: 999;
+top: 63%;
+/*left: 50%;*/
+flex-wrap: wrap;
+color: white;
+margin-left: 60px;
+}
+
+.display-page .links-container a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+    text-transform: uppercase;
+    transition: padding-left .2s ease-in-out;
+}
+
+.display-page .vertical-content img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 70px;
+    max-height: 545px;
+    height: 50%;
+}
+
+
 #myNameHeader {
   color: white;
   margin-left: 18px;
@@ -34,6 +134,19 @@
   padding-bottom: 14px;
   margin-right: 7px;
 }
+
+/*.portfolioPictureR1 {
+  height: 25vh;
+  margin-top: 10%;
+}
+.portfolioPictureR2 {
+  height: 25vh;
+  margin-top: 20%;
+}
+  
+#redditImage {
+  margin-top: 10%;
+}*/
 
 .socialMediaIcon {
   height: 50px;
@@ -133,7 +246,7 @@ body {
   background: #fff;
   height: 100%;
   font-family: Arial, sans-serif;
-  color: #505050;
+  color: white;
   font-size: 100%;
   font-weight: 200;
 }
@@ -398,4 +511,70 @@ only screen and	(max-device-width :800px)*/) {
 }
 @media only screen and (max-device-width: 1280px) {
 
+}
+
+/*Card Layout for portfolio page using CSS Flex*/
+.card{
+width: 350px;
+border: 1px solid gray;
+border-top: 10px solid #f2bb05;
+min-height: 250px;
+padding-: 10px;
+margin: 10px;
+/* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/*.overlay {
+  width: 350px;
+}*/
+
+img{
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 5% 5% 0 5%;
+}
+
+.projectTitle{
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+
+.projectLink {
+  height: 100%;
+}
+
+p{
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+#mainbox{
+  font-family: calibri;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+flex-wrap: wrap;
+margin-top: 5%;
+}
+/*End Codepen Flex Card Layout
+*/
+
+.cardCont:hover > .overlay {
+    width:100%;
+    height:100%;
+/*    position:absolute;
+*/    background-color:#000;
+    opacity:0.5;
+    border-radius:30px;
+}
+
+.cardCont:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
