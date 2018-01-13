@@ -32,8 +32,10 @@
   height: 100vh;
 }
 
-.links-container {
-
+#canit {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
 }
 
 .display-page .links-container-left {
@@ -143,7 +145,7 @@ margin-left: 60px;
   height: 25vh;
   margin-top: 20%;
 }
-  
+
 #redditImage {
   margin-top: 10%;
 }*/
@@ -176,13 +178,13 @@ margin-left: 60px;
 nav {
   margin: 34px;
 }
- 
+
 #navNav ul {
   overflow: auto;
   list-style-type: none;
   width: 100%;
 }
- 
+
 .navLi {
   height: 25px;
   float: left;
@@ -191,28 +193,28 @@ nav {
   border-right: 1px solid #aaa;
   padding: 0 20px;
 }
- 
+
 /*.navLi:last-child {
   border-right: none;
 }*/
- 
+
 .navLi a {
   text-decoration: none;
   color: #ccc;
   font: 18px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
- 
+
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
- 
+
 .navLi a:hover {
   color: #666;
 }
- 
+
 .navLi.active a {
   font-weight: bold;
   color: #333;
@@ -364,7 +366,7 @@ h3 {
 #navNav li {
   font-size: 0.8125em;
   letter-spacing: 1.5px;
-  float: right; 
+  float: right;
   padding: 0 5px 0 0 ;
 /*  background-color:#996B96;
 */}
@@ -498,8 +500,8 @@ h3 {
 @media only screen and (max-width: 1023px/*,
 only screen and	(max-device-width :800px)*/) {
   /* Styles */
-  
- 
+
+
 }
 /* one HD query to rule them all... or so i hope ----------- */
 
@@ -576,5 +578,5 @@ margin-top: 5%;
 }
 
 .cardCont:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
